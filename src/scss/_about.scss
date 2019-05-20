@@ -1,0 +1,53 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  background-color: salmon;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 2rem;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+
+  h3 {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: $color-lightSalmon;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: $color-lightSalmon;
+    margin-bottom: 0.8rem;
+    @media (min-width: $bp-bg) {
+      font-size: 1.1rem;
+    }
+  }
+
+  .grey {
+    color: #333;
+  }
+
+  .bottom-paragraph {
+    color: $color-lightSalmon;
+    font-size: 1rem;
+    padding-top: 10rem;
+    text-align: right;
+    @media (min-width: $bp-bg) {
+      font-size: 1.1rem;
+    }
+    a {
+      color: $color-grey;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}

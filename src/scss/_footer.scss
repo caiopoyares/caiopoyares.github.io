@@ -1,0 +1,12 @@
+footer {
+  margin-top: auto;
+  padding-bottom: 2rem;
+  text-align: center;
+
+  .fab,
+  .far {
+    color: $color-salmon;
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
+}
