@@ -1,6 +1,6 @@
 .navbar {
   padding: 1.2rem 0;
-  margin-top: auto;
+
   .name {
     text-align: center;
     font-size: 1.2rem;
@@ -20,14 +20,14 @@
     padding: 0.5rem;
     color: #999;
     &.active {
-      color: $color-salmon;
+      color: var(--color-primary);
       &:hover {
-        color: $color-darkSalmon;
+        color: var(--color-secondary);
       }
     }
 
     &:hover {
-      color: $color-grey;
+      color: var(--color-grey);
     }
   }
 }

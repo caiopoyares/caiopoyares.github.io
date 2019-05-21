@@ -1,9 +1,21 @@
-//COLORS
-$color-salmon: salmon;
-$color-darkSalmon: rgb(190, 64, 50);
-$color-lightSalmon: rgb(255, 219, 215);
-$color-grey: rgb(59, 59, 59);
-
 //MEDIA QUERIES
 $bp-md: 600px;
 $bp-bg: 800px;
+
+:root {
+  --color-primary: salmon;
+  --color-secondary: rgb(190, 64, 50);
+  --color-terciary: rgb(255, 219, 215);
+  --color-grey: rgb(59, 59, 59);
+}
+//SECOND THEME
+// --color-primary:: palevioletred;
+// --color-secondary: rgb(86, 32, 50);
+// --color-terciary: rgb(255, 195, 215);
+// --color-grey: rgb(59, 59, 59);
+
+//THIRD THEME
+// --color-primary:: skyblue;
+// --color-secondary: blue;
+// --color-terciary: rgb(255, 195, 215);
+// --color-grey: rgb(59, 59, 59);

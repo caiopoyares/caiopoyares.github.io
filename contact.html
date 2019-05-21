@@ -22,25 +22,37 @@
       <nav class="navbar">
         <div class="name">Caio Poyares</div>
         <ul>
-          <a href="/index.html"><li class="active">Sobre</li></a>
-          <a href="/portfolio.html"><li>Portfolio</li></a>
-          <a href="/contact.html"><li>Contato</li></a>
+          <a href="/index.html"><li>Sobre</li></a>
+          <a href="/portfolio.hmtl"><li>Portfolio</li></a>
+          <a href="/contact.html"><li class="active">Contato</li></a>
         </ul>
       </nav>
-      <section class="about">
-        <h3>Bem-vindo.</h3>
+      <section class="contact">
+        <h3>mande um olá.</h3>
         <p>
-          Me chamo Caio e trabalho como desenvolvedor front-end.
+          Sinta-se à vontade para me enviar uma mensagem, seja para esclarecer
+          alguma dúvida, mandar uma sugestão ou me conhecer melhor.
         </p>
-        <p>
-          Construo sites e SPA's dos quais clientes sentem genuíno orgulho de
-          divulgar para o mundo.
-        </p>
-        <div class="bottom-paragraph">
-          Conheça mais sobre meus trabalhos
-          <a href="#">
-            aqui.
-          </a>
+        <div class="contact__form">
+          <form class="form">
+            <input type="text" placeholder="Nome" required />
+            <input type="email" placeholder="E-mail" required />
+
+            <textarea
+              name="message"
+              id="contact-message"
+              cols="30"
+              rows="7"
+              placeholder="Mensagem"
+              required
+            ></textarea>
+            <input
+              class="btn secondary-btn"
+              type="submit"
+              placeholder="Enviar"
+              required
+            />
+          </form>
         </div>
       </section>
       <footer>

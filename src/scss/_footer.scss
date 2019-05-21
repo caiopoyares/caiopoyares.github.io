@@ -1,11 +1,11 @@
 footer {
   margin-top: auto;
-  padding-bottom: 2rem;
+  padding: 1.2rem 5px;
   text-align: center;
 
   .fab,
   .far {
-    color: $color-salmon;
+    color: var(--color-primary);
     font-size: 2rem;
     margin: 0.5rem;
   }
