@@ -9,13 +9,13 @@ function setSwitcherValue() {
   if (localStorage.length > 0) {
     switcherValue = parseInt(localStorage.getItem("switcherValue"));
   } else {
-    switcherValue = 1;
+    switcherValue = 2;
   }
   const root = document.documentElement;
   if (switcherValue == 1) {
     root.style.setProperty("--color-primary", "#e25e35");
     root.style.setProperty("--color-secondary", "#864107");
-    root.style.setProperty("--color-terciary", "rgb(255, 183, 132)");
+    root.style.setProperty("--color-terciary", "rgb(255, 188, 141)");
   } else if (switcherValue === 2) {
     root.style.setProperty("--color-primary", "#a74f6c");
     root.style.setProperty("--color-secondary", "rgb(86, 32, 50)");
@@ -23,7 +23,7 @@ function setSwitcherValue() {
   } else if (switcherValue === 3) {
     root.style.setProperty("--color-primary", "#3f99bd");
     root.style.setProperty("--color-secondary", "#375663");
-    root.style.setProperty("--color-terciary", "#ffe99f");
+    root.style.setProperty("--color-terciary", "#ffefba");
   } else if (switcherValue === 4) {
     root.style.setProperty("--color-primary", "#9051ff");
     root.style.setProperty("--color-secondary", "#0e4e56");
@@ -41,7 +41,7 @@ function switchTheme() {
   if (switcherValue == 1) {
     root.style.setProperty("--color-primary", "#e25e35");
     root.style.setProperty("--color-secondary", "#864107");
-    root.style.setProperty("--color-terciary", "rgb(255, 176, 120)");
+    root.style.setProperty("--color-terciary", "rgb(255, 188, 141)");
   } else if (switcherValue === 2) {
     root.style.setProperty("--color-primary", "#a74f6c");
     root.style.setProperty("--color-secondary", "rgb(86, 32, 50)");
@@ -49,7 +49,7 @@ function switchTheme() {
   } else if (switcherValue === 3) {
     root.style.setProperty("--color-primary", "#3f99bd");
     root.style.setProperty("--color-secondary", "#375663");
-    root.style.setProperty("--color-terciary", "#ffe99f");
+    root.style.setProperty("--color-terciary", "#ffefba");
   } else if (switcherValue === 4) {
     root.style.setProperty("--color-primary", "#9051ff");
     root.style.setProperty("--color-secondary", "#0e4e56");
