@@ -23,7 +23,7 @@ function setSwitcherValue() {
   } else if (switcherValue === 3) {
     root.style.setProperty("--color-primary", "#3f99bd");
     root.style.setProperty("--color-secondary", "#375663");
-    root.style.setProperty("--color-terciary", "#ffefba");
+    root.style.setProperty("--color-terciary", "#fff4ce");
   } else if (switcherValue === 4) {
     root.style.setProperty("--color-primary", "#9051ff");
     root.style.setProperty("--color-secondary", "#0e4e56");
@@ -49,7 +49,7 @@ function switchTheme() {
   } else if (switcherValue === 3) {
     root.style.setProperty("--color-primary", "#3f99bd");
     root.style.setProperty("--color-secondary", "#375663");
-    root.style.setProperty("--color-terciary", "#ffefba");
+    root.style.setProperty("--color-terciary", "#fff4ce");
   } else if (switcherValue === 4) {
     root.style.setProperty("--color-primary", "#9051ff");
     root.style.setProperty("--color-secondary", "#0e4e56");
