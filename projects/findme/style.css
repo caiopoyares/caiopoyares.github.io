@@ -1,0 +1,77 @@
+.footer {
+  border: 1px solid #dedede;
+  margin-top: auto !important;
+}
+
+#submitBtn {
+  align-self: flex-start;
+}
+
+#profile {
+  width: auto;
+  min-height: 45vh;
+  margin: 1rem 0;
+}
+
+.user__box {
+  max-width: 800px;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.img__box {
+  display: block;
+  align-self: flex-start;
+  width: 50%;
+  max-width: 180px;
+  min-width: 100px;
+  border: 1px solid #ddd;
+  margin-right: 1rem;
+}
+
+.user__image {
+  display: block;
+  width: 100%;
+}
+
+.friendsBtn {
+  font-size: .8rem;
+  display: flex;
+  align-items: baseline;
+}
+
+table {
+  font-size: 1rem;
+  min-width: 190px;
+}
+
+td {
+  padding-bottom: .15rem;
+  padding-left: 1rem;
+
+}
+
+@media (max-width: 490px) {
+  .user__box {
+    text-align: center;
+    display: block;
+    width: auto;
+  }
+
+  .img__box {
+    margin: auto;
+  }
+
+  .friendsBtn {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="loan.css">
+  <title>Calculadora de Juros Compostos</title>
+</head>
+<body class="bg-dark">
+  <div class="container my-5">
+    <div class="row ">
+      <div class="col-lg-8 mx-auto bg-light rounded">
+        <form class="w-75 mx-auto">
+          <h1 class="text-center h3 my-4 meu-titulo">Calculadora de Juros Compostos</h1> <div class="form-group">
+            <label for="capital">Investimento inicial</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">R$</div>
+              </div>
+              <input id="capital" class="form-control capital" type="number" placeholder="Investimento inicial">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="taxa-mensal">Taxa Mensal</label>
+            <div class="input-group">
+              <input id="taxa-mensal" type="number" class="form-control taxa-mensal" placeholder="Taxa Mensal (%)">
+              <div class="input-group-append">
+                  <div class="input-group-text">%</div>
+                </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="prazo">Período</label>
+            <div class="input-group">
+              <input id="prazo" type="number" class="form-control prazo" placeholder="Período (em meses)">
+              <div class="input-group-append">
+                  <div class="input-group-text">meses</div>
+                </div>
+            </div>
+          </div>
+          <div class="small text-secondary">Insira somente números nos campos acima. Use pontos ao invés de vírgulas para números não inteiros.</div>
+          <button type="submit" class="btn btn-block btn-success mt-4 mb-4">Calcular</button>
+        </form>
+        <div class="alerta w-75 mx-auto text-center alert alert-danger">
+          Favor preencher todos os campos acima.
+        </div>
+        <div id="resultados" class="resultados w-75 mx-auto mb-3"></div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer small mx-auto">Esse site foi criado e desenvolvido por <span class="text-warning">Caio Poyares</span> e não possui nenhuma finalidade comercial. Este é um projeto pessoal. Sinta-se à vontade para usar.</footer>
+  <script src="loan.js"></script>
+</body>
+</html>
