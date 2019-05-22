@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Home | Goat Project</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <!-- NAVBAR -->
+    <nav class="navigation">
+      <div class="nav">
+        <div class="nav__logo nav__logo-white"><a href="index.html">Goat</a></div>
+        <!-- MOBILE NAVBAR -->
+        <div class="mobile-button">
+          <i class="fas fa-bars"></i>
+        </div>
+        <aside class="sidebar-menu">
+          <button class="close-menu-btn">&times;</button>
+          <ul class="mobile-menu__list">
+            <li class="mobile-menu__item"><a class="item-current" href="index.html">Home</a></li>
+            <li class="mobile-menu__item"><a href="sobre-nos.html">Sobre</a></li>
+            <li class="mobile-menu__item"><a href="#">Dropdown</a>
+              <ul class="mobile-menu__dropdown">
+                <li class="dropdown__item"><a href="#">Exemplo 1</a></li>
+                <li class="dropdown__item"><a href="#">Exemplo 2</a></li>
+                <li class="dropdown__item"><a href="#">Exemplo 3</a></li>
+              </ul>
+            </li>
+            <li class="mobile-menu__item"><a href="contact.html">Contato</a></li>
+          </ul>
+        </aside>
+
+        <!-- DESKTOP NAVBAR -->
+        <ul class="desktop-navbar">
+          <a class="item-current" href="index.html">
+            <li class="navbar__items">Home</li>
+          </a>
+          <a href="sobre-nos.html">
+            <li class="navbar__items">Sobre</li>
+          </a>
+          <li class="navbar__items navbar__items--drop"><a href="#">Dropdown</a><i class="fas fa-caret-down"></i>
+            <ul class="navbar__dropdown">
+              <a href="#">
+                <li class="navbar__dropdown-item">Exemplo 1</li>
+              </a>
+              <a href="#">
+                <li class="navbar__dropdown-item">Exemplo 2</li>
+              </a>
+              <a href="#">
+                <li class="navbar__dropdown-item">Exemplo 3</li>
+              </a>
+            </ul>
+          </li>
+          <a href="contact.html">
+            <li class="navbar__items">Contato</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <div class="header__container">
+      <div class="header__content">
+        <h2 class="header__pre-title">Criamos o único</h2>
+        <h1 class="header__title">resort</h3>
+          <p class="header__subtitle">exclusivo para bodes <em>(no mundo!)</em></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Welcome section -->
+  <section class="welcome center">
+    <div class="welcome__container">
+      <h2 class="welcome__title">Bem-vindo</h2>
+      <h2 class="welcome__subtitle">ao Goat Ville</h2>
+      <p class="welcome__text center">Somos muito gratos de poder apresentar a vocês a <em>Goat Ville</em>, um resort
+        criado pensando especialmente nos bodes. Assim como vocês, os bodes precisam de cuidados físicos e mentais. A
+        proposta da Goat é criar um espaço onde seu bode possa relaxas e esquecer dos problemas diários.</p>
+    </div>
+  </section>
+
+
+  <!-- transition -->
+  <div class="transition-box">
+    <img class="transition-img" src="img/transition.svg" alt="transition">
+  </div>
+
+  <!-- Intro section -->
+  <section class="intro">
+    <div class="intro__container">
+      <div class="section-title intro__title center uppercase">Modernas instalações</div>
+      <div class="hr"></div>
+      <div class="section-subtitle intro__subtitle center">A <em>Goat</em> conta com a melhor e mais nova
+        infraestrutura
+        do mercado para atender as expectativas até do mais exigente cliente (o seu bode).</div>
+      <ul class="intro__list">
+        <li class="intro__list-item">2.500 m² de área construída</li>
+        <li class="intro__list-item">Piscina aquecida e com borda infinita</li>
+        <li class="intro__list-item">Camas individuais</li>
+        <li class="intro__list-item">Área de lazer com ar condicionado</li>
+        <li class="intro__list-item">Refeitório</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section class="cta">
+    <div class="cta__img"></div>
+    <div class="cta__content">
+      <h3 class="cta__subtitle">Venha nos visitar e</h3>
+      <h2 class="cta__title">traga seu bode de estimação</h2>
+      <p class="cta__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, nihil modi! Ipsa iste
+        eveniet
+        molestias dolorem? Id, officia, numquam suscipit corporis tempora voluptates cum quisquam, itaque perspiciatis
+        repellendus doloribus fusuqis.</p>
+      <div class="cta__transition"></div>
+      <a class="cta__btn btn" href="sobre-nos.html">Saiba mais</a>
+    </div>
+  </section>
+
+  <!-- prices section -->
+  <section class="planos">
+    <div class="section-title uppercase">Planos e Pacotes</div>
+    <div class="hr"></div>
+    <div class="planos__container">
+      <div class="planos__text center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe explicabo
+        neque repellendus, suscipit maxime similique sint, ex consequuntur deserunt quos illum totam veniam.</div>
+      <div class="pricing__container">
+        <div class="pricing-card">
+          <h2 class="pricing-card__title">Basic</h2>
+          <h4 class="pricing-card__subtitle">R$99<span class="small">/Dia</span></h4>
+          <p class="pricing-card__atributo">Café da manhã</p>
+          <p class="pricing-card__atributo">Grama Premium</p>
+
+          <p class="pricing-card__atributo">Brincadeiras</p>
+          <p class="pricing-card__atributo">Veterinário</p>
+          <button class="btn primary-btn">Assine já</button>
+        </div>
+        <div class="pricing-card">
+          <h2 class="pricing-card__title">Pro</h2>
+          <h4 class="pricing-card__subtitle">R$139<span class="small">/Mês</span></h4>
+          <p class="pricing-card__atributo">Café da manhã</p>
+          <p class="pricing-card__atributo">Grama Premium</p>
+          <p class="pricing-card__atributo">Brincadeiras</p>
+          <p class="pricing-card__atributo">Veterinário</p>
+          <p class="pricing-card__atributo badge-new">Nutricionista</p>
+          <button class="btn primary-btn">Assine já</button>
+        </div>
+        <div class="pricing-card">
+          <h2 class="pricing-card__title">Deluxe</h2>
+          <h4 class="pricing-card__subtitle">R$200<span class="small">/Mês</span></h4>
+          <p class="pricing-card__atributo">Café da manhã</p>
+          <p class="pricing-card__atributo">Grama Premium</p>
+          <p class="pricing-card__atributo">Brincadeiras</p>
+          <p class="pricing-card__atributo">Veterinário</p>
+          <p class="pricing-card__atributo badge-new">Nutricionista</p>
+          <p class="pricing-card__atributo">Personal Trainer</p>
+          <button class="btn primary-btn">Assine já</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- transition -->
+  <div class="transition-box">
+    <img class="transition-img transition-img-2" src="img/transition.svg" alt="transition">
+  </div>
+
+  <!-- PRODUCTS SECTION -->
+  <section class="products">
+    <div class="section-title uppercase">Produtos e Serviços</div>
+    <div class="hr"></div>
+    <div class="products__text center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, sapiente
+      molestias! Corporis voluptatum deserunt voluptatem suscipit iusto, explicabo voluptatibus ullam, nisi, harum
+      adipisci qui ipsum?</div>
+    <div class="grid">
+      <div class="product-card">
+        <h1 class="product-title">Guias e Coleiras</h1>
+        <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, quidem.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, repudiandae.</p>
+        <button class="btn secondary-btn">Adquira</button>
+      </div>
+      <div class="product-card">
+        <h1 class="product-title">Brinquedos</h1>
+        <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, quidem.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, repudiandae.</p>
+        <button class="btn secondary-btn">Adquira</button>
+      </div>
+      <div class="product-card">
+        <h1 class="product-title">Rações e Gramas</h1>
+        <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, quidem.
+          Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Modi, repudiandae.</p>
+        <button class="btn secondary-btn">Adquira</button>
+      </div>
+      <div class="product-card">
+        <h1 class="product-title">Medicamentos</h1>
+        <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, quidem.
+          Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Modi, repudiandae.</p>
+        <button class="btn secondary-btn">Adquira</button>
+      </div>
+      <div class="product-card">
+        <h1 class="product-title">Shampoo e Condicionador</h1>
+        <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, quidem.
+          Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Modi, repudiandae.</p>
+        <button class="btn secondary-btn">Adquira</button>
+      </div>
+      <div class="product-card">
+        <h1 class="product-title">Cama para cabras</h1>
+        <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, quidem.
+          Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Modi, repudiandae.</p>
+        <button class="btn secondary-btn">Adquira</button>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- newsletter section  -->
+  <section class="subscribe">
+    <form class='subscribe-form'>
+      <h3 class="subscribe-form__title">Top Secret</h3>
+      <p class="subscribe-form__subtitle section-subtitle mb-2">Receba novidades por email</p>
+      <div class="subscribe-form__group">
+        <input class="subscribe-form__input" type="email" placeholder="Email">
+        <button class="subscribe-form__btn" type="submit">Cadastrar</button>
+      </div>
+      <div class="hr subscribe-form__hr"></div>
+    </form>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="footer__logo center">Goat</div>
+    <div class="footer__text">Esse site foi criado e desenvolvido por <span class="footer__name">Caio
+        Poyares</span>.<br> A <em>Goat</em> é uma empresa fictícia. </div>
+  </footer>
+
+  <script src='js/app.js'></script>
+</body>
+
+</html>
