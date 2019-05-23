@@ -69,6 +69,12 @@
     text-align: justify;
     margin-bottom: 0.75rem;
     line-height: 1.6rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    @media (min-width: $bp-bg) {
+      padding-right: 0;
+      padding-left: 0;
+    }
   }
   &__links {
     color: var(--color-primary);

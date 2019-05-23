@@ -173,7 +173,13 @@ a {
     color: #666;
     text-align: justify;
     margin-bottom: 0.75rem;
-    line-height: 1.6rem; }
+    line-height: 1.6rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem; }
+    @media (min-width: 800px) {
+      .project__description {
+        padding-right: 0;
+        padding-left: 0; } }
   .project__links {
     color: var(--color-primary); }
     .project__links > a:first-child {
