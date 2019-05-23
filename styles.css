@@ -69,6 +69,7 @@ a {
 
 .container {
   min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column; }
 
@@ -84,6 +85,7 @@ a {
     font-size: 5rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
+    line-height: 5rem;
     color: var(--color-terciary); }
   .about p {
     font-size: 1rem;
@@ -180,11 +182,6 @@ a {
       text-decoration: underline;
       color: var(--color-secondary); }
 
-.container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column; }
-
 .contact {
   flex: 1;
   background-color: var(--color-primary);
@@ -219,6 +216,7 @@ a {
       border: 2px solid var(--color-terciary);
       color: var(--color-secondary);
       font-size: 1rem;
+      font-family: inherit;
       padding: 0.65rem;
       border-radius: 3px; }
     .contact__form form > *:focus {
@@ -240,7 +238,8 @@ a {
       background-color: var(--color-secondary);
       color: var(--color-terciary);
       border-color: var(--color-secondary);
-      margin-top: 1rem; }
+      margin-top: 1rem;
+      box-shadow: none; }
       .contact__form form input[type="submit"]:focus, .contact__form form input[type="submit"]:hover {
         color: var(--color-primary); }
 
@@ -261,4 +260,7 @@ footer {
 
 .switcher__button {
   cursor: pointer;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
+  @media (min-width: 600px) {
+    .switcher__button {
+      font-size: 2rem; } }
