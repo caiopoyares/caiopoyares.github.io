@@ -207,41 +207,6 @@ a {
     @media (min-width: 800px) {
       .contact p {
         font-size: 1.1rem; } }
-  .contact__form {
-    margin-top: 2rem; }
-    .contact__form form > * {
-      display: block;
-      width: 100%;
-      background-color: var(--color-terciary);
-      border: 2px solid var(--color-terciary);
-      color: var(--color-secondary);
-      font-size: 1rem;
-      font-family: inherit;
-      padding: 0.65rem;
-      border-radius: 3px; }
-    .contact__form form > *:focus {
-      outline: none;
-      border-color: var(--color-secondary); }
-    .contact__form form > *:focus::placeholder {
-      color: var(--color-secondary); }
-    .contact__form form > *::placeholder {
-      color: var(--color-primary);
-      font-size: 1rem; }
-    .contact__form form > *:not(:last-child) {
-      margin-bottom: 0.5rem; }
-    .contact__form form textarea {
-      resize: none; }
-    .contact__form form input[type="submit"] {
-      cursor: pointer;
-      font-weight: 600;
-      text-transform: uppercase;
-      background-color: var(--color-secondary);
-      color: var(--color-terciary);
-      border-color: var(--color-secondary);
-      margin-top: 1rem;
-      box-shadow: none; }
-      .contact__form form input[type="submit"]:focus, .contact__form form input[type="submit"]:hover {
-        color: var(--color-primary); }
 
 footer {
   margin-top: auto;
