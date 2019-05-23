@@ -6,7 +6,7 @@ switcher.addEventListener("click", switchTheme);
 let switcherValue;
 
 function setSwitcherValue() {
-  if (localStorage.length > 0) {
+  if (localStorage.length > 0 && localStorage.switcherValue !== null) {
     switcherValue = parseInt(localStorage.getItem("switcherValue"));
   } else {
     switcherValue = 3;
