@@ -109,6 +109,9 @@ a {
       color: var(--color-secondary); }
     .about .bottom-paragraph a:hover {
       text-decoration: underline; }
+  .about .skills {
+    font-weight: 600;
+    margin-top: 3rem; }
 
 .portfolio__container {
   max-width: 600px;
