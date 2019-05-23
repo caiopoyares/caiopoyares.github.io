@@ -9,7 +9,7 @@ function setSwitcherValue() {
   if (localStorage.length > 0) {
     switcherValue = parseInt(localStorage.getItem("switcherValue"));
   } else {
-    switcherValue = 2;
+    switcherValue = 3;
   }
   const root = document.documentElement;
   if (switcherValue == 1) {
