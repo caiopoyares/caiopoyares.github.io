@@ -34,11 +34,10 @@
   }
 
   .bottom-paragraph {
-    position: absolute;
     color: var(--color-terciary);
     font-size: 1rem;
-    bottom: 2rem;
-    right: 2rem;
+    margin-top: 3rem;
+
 
     @media (min-width: $bp-bg) {
       font-size: 1.1rem;
