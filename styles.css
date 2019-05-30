@@ -109,7 +109,8 @@ a {
       text-decoration: underline; }
   .about .skills {
     font-weight: 600;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    color: var(--color-secondary); }
 
 .portfolio__container {
   max-width: 600px;
