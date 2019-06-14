@@ -59,6 +59,10 @@
     margin-right: auto;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    max-width: 400px;
+    @media (min-width: $bp-bg) {
+      max-width: 500px;
+    }
   }
   &__description {
     max-width: 400px;
@@ -74,6 +78,7 @@
     @media (min-width: $bp-bg) {
       padding-right: 0;
       padding-left: 0;
+      max-width: 500px;
     }
   }
   &__links {
