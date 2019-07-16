@@ -1,220 +1,318 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Caio Poyares | Portfolio</title>
+  </head>
 
-  <link rel="stylesheet" href="styles.css" />
-  <title>Caio Poyares | Portfolio</title>
-</head>
-
-<body>
-  <div class="switcher">
-    <div class="switcher__button">🎉</div>
-  </div>
-  <div class="container">
-    <nav class="navbar">
-      <div class="name">Caio Poyares</div>
-      <ul>
-        <a href="/index.html">
-          <li>Sobre</li>
-        </a>
-        <a href="/portfolio.html">
-          <li class="active">Portfolio</li>
-        </a>
-        <a href="/contact.html">
-          <li>Contato</li>
-        </a>
-      </ul>
-    </nav>
-    <div class="portfolio__container">
-      <div class="project">
-        <div class="project__img">
-          <img src="img/goat.png" alt="site goat" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">Goat</h2>
-          <h4 class="project__subtitle">
-            Site estático / SASS / VanillaJS / Babel / Design
-          </h4>
-          <p class="project__description">
-            A GOAT é um site estático sobre um tema fictício. Para o desenvolvimento do site, foi usado SASS para
-            estilização e VanillaJS para a lógica. Para implantação, o website foi compilado com Babel e minificado.
-          </p>
-          <div class="project__links">
-            <a href="./projects/goat/index.html" target="_blank">Demo</a>
-            <a href="https://github.com/caiopoyares/Goat" target="_blank">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project__img">
-          <img src="img/blog.png" alt="Blog React + Contentful" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">Blog React + Contentful</h2>
-          <h4 class="project__subtitle">
-            SINGLE PAGE APP / REACT / CONTENTFUL / REACT-ROUTER / NETLIFY / STYLED-COMPONENTS
-          </h4>
-          <p class="project__description">
-            O blog foi criado utilizando a integração do Contentful com React. Todos os posts do blog são criados na
-            plataforma da Contentful (um Headless CMS) e exibidos automaticamente via API.
-          </p>
-          <div class="project__links">
-            <a href="https://optimistic-spence-041434.netlify.com/" target="_blank">Demo</a>
-            <a href="https://github.com/caiopoyares/blog" target="_blank">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project__img">
-          <img src="img/hacker-news-clone.png" alt="hacker news clone" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">Hacker News Clone</h2>
-          <h4 class="project__subtitle">
-            SINGLE PAGE APP / REACT / REACT-ROUTER / NETLIFY / ES6 / SASS
-          </h4>
-          <p class="project__description">
-            O Hacker News Clone é uma SPA que simula o website de notícias Hacker News. Utilizando a própria API do
-            Hacker News, o aplicativo disponibiliza as principais notícias e as últimas notícias publicadas na
-            plataforma. Também é possível acessar o perfil de quem publicou e os comentários sobre a notícia. O React
-            Router
-            foi essencial e muito utilizado durante o desenvolvimento da SPA.
-          </p>
-          <div class="project__links">
-            <a href="https://hopeful-kirch-afcfe2.netlify.com" target="_blank">Demo</a>
-            <a href="https://github.com/caiopoyares/hacker-news-clone" target="_blank">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project__img">
-          <img src="img/painel-cliente.png" alt="painel de cliente" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">Painel de Clientes</h2>
-          <h4 class="project__subtitle">
-            SINGLE PAGE APP / REACT / REDUX / FIREBASE / ES6 / SASS
-          </h4>
-          <p class="project__description">
-            O Painel de Clientes é um projeto construido para simular um aplicativo web corporativo, onde é possível
-            adicionar/remover usuários e clientes. Com o aplicativo, é possível manter a relação de clientes e consultar
-            o saldo de cada um. Crie uma nova conta para acessar a dashboard principal.
-          </p>
-          <div class="project__links">
-            <a href="https://painel-de-cliente-edbdf.firebaseapp.com" target="_blank">Demo</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project__img">
-          <img src="img/tech-trends.png" alt="tech trends" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">Tech Trends</h2>
-          <h4 class="project__subtitle">
-            SINGLE PAGE APP / REACT / REACT ROUTER / ES6 / NETLIFY / WEBPACK / GITHUB API
-          </h4>
-          <p class="project__description">
-            O Tech Trends é uma SPA que busca os repositórios com mais estrelas no Github e as classifica de acordo com
-            a categoria. No Tech Trends, você pode
-            escolher entre 5 linguagens e conhecer os repositórios mais famosos relacionados a ela.
-          </p>
-          <div class="project__links">
-            <a href="https://optimistic-bohr-865473.netlify.com/" target="_blank">Demo</a>
-            <a href="https://github.com/caiopoyares/Tech-Trends" target="_blank">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project__img">
-          <img src="img/calorias.png" alt="diario de calorias" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">Diario de Calorias</h2>
-          <h4 class="project__subtitle">
-            SINGLE PAGE APP / VanillaJS / ES6 / CSS
-          </h4>
-          <p class="project__description">
-            O Diário de Calorias é um web app construido com VanillaJS onde é possivel adicionar alimentos e manter uma
-            contagem de todas as calorias consumidas no dia.
-          </p>
-          <div class="project__links">
-            <a href="https://caiopoyares.github.io/projects/diario-calorias" target="_blank">Demo</a>
-            <a href="https://github.com/caiopoyares/diario-de-calorias" target="_blank">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project__img">
-          <img src="img/calculadora-juros.png" alt="calculadora de juros" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">Calculadora de Juros</h2>
-          <h4 class="project__subtitle">
-            SINGLE PAGE APP / VanillaJS / ES6 / Bootstrap / SASS
-          </h4>
-          <p class="project__description">
-            A Calculadora de Juros é um aplicativo criado com o intuito de facilitar a conta de juros compostos. Você
-            insere o investimento inicial, a taxa mensal e o período e ele te retorna o montante e os juros totais.
-          </p>
-          <div class="project__links">
-            <a href="https://caiopoyares.github.io/projects/calculadora-juros" target="_blank">Demo</a>
-            <a href="https://github.com/caiopoyares/calculadora-de-juros" target="_blank">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project__img">
-          <img src="img/findme.png" alt="findme" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">FindMe</h2>
-          <h4 class="project__subtitle">
-            SINGLE PAGE APP / API / VanillaJS / ES6 / CSS
-          </h4>
-          <p class="project__description">
-            O FindMe é um aplicativo que busca por perfis do GitHub e retorna os dados e os repositórios recentes
-            daquele perfil. O aplicativo faz solicitações ao API do Github.
-          </p>
-          <div class="project__links">
-            <a href="https://caiopoyares.github.io/projects/findme" target="_blank">Demo</a>
-            <a href="https://github.com/caiopoyares/Findme" target="_blank">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project__img">
-          <img src="img/portfolio.png" alt="portfolio imagem" />
-        </div>
-        <div class="project__overview">
-          <h2 class="project__title">Portfolio</h2>
-          <h4 class="project__subtitle">
-            Site estático / VanillaJS / LocalStorage / CSS Variables / Design
-          </h4>
-          <p class="project__description">
-            O portfolio que você está acessando nesse momento também foi construido por mim. No canto superior direito é
-            possível alterar entre 4 diferentes temas de cores. Para isso,
-            foi usado somente VanillaJS e variáveis de CSS.
-          </p>
-          <div class="project__links">
-            <a href="https://github.com/caiopoyares/portfolio" target="_blank">Github</a>
-          </div>
-        </div>
-      </div>
+  <body>
+    <div class="switcher">
+      <div class="switcher__button">🎉</div>
     </div>
-    <footer>
-      <a href="https://github.com/caiopoyares" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/caiopoyares/" target="_blank"><i class="fab fa-instagram"></i></a>
-    </footer>
-  </div>
-  <script src="main.js"></script>
-</body>
-
+    <div class="container">
+      <nav class="navbar">
+        <div class="name">Caio Poyares</div>
+        <ul>
+          <a href="/index.html">
+            <li>Sobre</li>
+          </a>
+          <a href="/portfolio.html">
+            <li class="active">Portfolio</li>
+          </a>
+          <a href="/contact.html">
+            <li>Contato</li>
+          </a>
+        </ul>
+      </nav>
+      <div class="portfolio__container">
+        <div class="project">
+          <div class="project__img">
+            <img src="img/spotify-react-app.png" alt="spotify react" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Spotify React App</h2>
+            <h4 class="project__subtitle">
+              SPA / React Hooks / Redux / ExpressJS / Spotify API / Heroku /
+              Styled Components
+            </h4>
+            <p class="project__description">
+              O projeto Spotify React App é um aplicativo web onde você pode
+              logar-se com a sua conta spotify e buscar álbuns de seus artistas
+              favoritos a partir da API do Spotify. Foi utilizado NodeJS e
+              ExpressJS para criação do backend.
+            </p>
+            <div class="project__links">
+              <a href="https://react-spotify-app.herokuapp.com/" target="_blank"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/caiopoyares/spotify-react-app"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/goat.png" alt="site goat" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Goat</h2>
+            <h4 class="project__subtitle">
+              Site estático / SASS / VanillaJS / Babel / Design
+            </h4>
+            <p class="project__description">
+              A GOAT é um site estático sobre um tema fictício. Para o
+              desenvolvimento do site, foi usado SASS para estilização e
+              VanillaJS para a lógica. Para implantação, o website foi compilado
+              com Babel e minificado.
+            </p>
+            <div class="project__links">
+              <a href="./projects/goat/index.html" target="_blank">Demo</a>
+              <a href="https://github.com/caiopoyares/Goat" target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/blog.png" alt="Blog React + Contentful" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Blog React + Contentful</h2>
+            <h4 class="project__subtitle">
+              SINGLE PAGE APP / REACT / CONTENTFUL / REACT-ROUTER / NETLIFY /
+              STYLED-COMPONENTS
+            </h4>
+            <p class="project__description">
+              O blog foi criado utilizando a integração do Contentful com React.
+              Todos os posts do blog são criados na plataforma da Contentful (um
+              Headless CMS) e exibidos automaticamente via API.
+            </p>
+            <div class="project__links">
+              <a
+                href="https://optimistic-spence-041434.netlify.com/"
+                target="_blank"
+                >Demo</a
+              >
+              <a href="https://github.com/caiopoyares/blog" target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/hacker-news-clone.png" alt="hacker news clone" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Hacker News Clone</h2>
+            <h4 class="project__subtitle">
+              SINGLE PAGE APP / REACT / REACT-ROUTER / NETLIFY / ES6 / SASS
+            </h4>
+            <p class="project__description">
+              O Hacker News Clone é uma SPA que simula o website de notícias
+              Hacker News. Utilizando a própria API do Hacker News, o aplicativo
+              disponibiliza as principais notícias e as últimas notícias
+              publicadas na plataforma. Também é possível acessar o perfil de
+              quem publicou e os comentários sobre a notícia. O React Router foi
+              essencial e muito utilizado durante o desenvolvimento da SPA.
+            </p>
+            <div class="project__links">
+              <a href="https://hopeful-kirch-afcfe2.netlify.com" target="_blank"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/caiopoyares/hacker-news-clone"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/painel-cliente.png" alt="painel de cliente" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Painel de Clientes</h2>
+            <h4 class="project__subtitle">
+              SINGLE PAGE APP / REACT / REDUX / FIREBASE / ES6 / SASS
+            </h4>
+            <p class="project__description">
+              O Painel de Clientes é um projeto construido para simular um
+              aplicativo web corporativo, onde é possível adicionar/remover
+              usuários e clientes. Com o aplicativo, é possível manter a relação
+              de clientes e consultar o saldo de cada um. Crie uma nova conta
+              para acessar a dashboard principal.
+            </p>
+            <div class="project__links">
+              <a
+                href="https://painel-de-cliente-edbdf.firebaseapp.com"
+                target="_blank"
+                >Demo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/tech-trends.png" alt="tech trends" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Tech Trends</h2>
+            <h4 class="project__subtitle">
+              SINGLE PAGE APP / REACT / REACT ROUTER / ES6 / NETLIFY / WEBPACK /
+              GITHUB API
+            </h4>
+            <p class="project__description">
+              O Tech Trends é uma SPA que busca os repositórios com mais
+              estrelas no Github e as classifica de acordo com a categoria. No
+              Tech Trends, você pode escolher entre 5 linguagens e conhecer os
+              repositórios mais famosos relacionados a ela.
+            </p>
+            <div class="project__links">
+              <a
+                href="https://optimistic-bohr-865473.netlify.com/"
+                target="_blank"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/caiopoyares/Tech-Trends"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/calorias.png" alt="diario de calorias" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Diario de Calorias</h2>
+            <h4 class="project__subtitle">
+              SINGLE PAGE APP / VanillaJS / ES6 / CSS
+            </h4>
+            <p class="project__description">
+              O Diário de Calorias é um web app construido com VanillaJS onde é
+              possivel adicionar alimentos e manter uma contagem de todas as
+              calorias consumidas no dia.
+            </p>
+            <div class="project__links">
+              <a
+                href="https://caiopoyares.github.io/projects/diario-calorias"
+                target="_blank"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/caiopoyares/diario-de-calorias"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/calculadora-juros.png" alt="calculadora de juros" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Calculadora de Juros</h2>
+            <h4 class="project__subtitle">
+              SINGLE PAGE APP / VanillaJS / ES6 / Bootstrap / SASS
+            </h4>
+            <p class="project__description">
+              A Calculadora de Juros é um aplicativo criado com o intuito de
+              facilitar a conta de juros compostos. Você insere o investimento
+              inicial, a taxa mensal e o período e ele te retorna o montante e
+              os juros totais.
+            </p>
+            <div class="project__links">
+              <a
+                href="https://caiopoyares.github.io/projects/calculadora-juros"
+                target="_blank"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/caiopoyares/calculadora-de-juros"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/findme.png" alt="findme" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">FindMe</h2>
+            <h4 class="project__subtitle">
+              SINGLE PAGE APP / API / VanillaJS / ES6 / CSS
+            </h4>
+            <p class="project__description">
+              O FindMe é um aplicativo que busca por perfis do GitHub e retorna
+              os dados e os repositórios recentes daquele perfil. O aplicativo
+              faz solicitações ao API do Github.
+            </p>
+            <div class="project__links">
+              <a
+                href="https://caiopoyares.github.io/projects/findme"
+                target="_blank"
+                >Demo</a
+              >
+              <a href="https://github.com/caiopoyares/Findme" target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/portfolio.png" alt="portfolio imagem" />
+          </div>
+          <div class="project__overview">
+            <h2 class="project__title">Portfolio</h2>
+            <h4 class="project__subtitle">
+              Site estático / VanillaJS / LocalStorage / CSS Variables / Design
+            </h4>
+            <p class="project__description">
+              O portfolio que você está acessando nesse momento também foi
+              construido por mim. No canto superior direito é possível alterar
+              entre 4 diferentes temas de cores. Para isso, foi usado somente
+              VanillaJS e variáveis de CSS.
+            </p>
+            <div class="project__links">
+              <a href="https://github.com/caiopoyares/portfolio" target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a href="https://github.com/caiopoyares" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/caiopoyares/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
